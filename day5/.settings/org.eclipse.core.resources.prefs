@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//lib/common.py=utf-8
+encoding//model/admin.py=utf-8
+encoding//model/chat_records.py=utf-8
+encoding//utility/sql_helper.py=utf-8
+encoding/__init__.py=utf-8
+encoding/client.py=utf-8
+encoding/conf.py=utf-8
+encoding/server.py=utf-8
+encoding/serverFile.py=utf-8

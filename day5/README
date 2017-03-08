@@ -1,0 +1,36 @@
+作业要求：
+	1、做个类似小黄鸡那样的智能聊天系统
+	2、client可以跟server聊天，client输入文字，server匹配关键字（自己定义的关键字）返回相应的答复
+	3、聊天信息保存到数据库里，可以查看聊天记录
+	4、必须要用三层架构MVC
+	5、可上传文件（加分项）
+
+程序操作流程：
+	1、先启动server.py
+	2、再启动serverfile.py
+	3、__init__.py 是client程序入口
+	4、上传文件的格式：命令|文件路径
+	
+功能：
+	1、多线程处理模型，可同时应对多个client连接
+	2、每个client启动后，先登录，登录成功后可选：聊天、查看聊天记录、上传文件、退出系统
+	
+用到的表：
+	用户表：admin
+	消息记录表：chat_records
+	
+表结构：
+	CREATE TABLE `admin` (
+	  `uid` int(11) NOT NULL AUTO_INCREMENT,
+	  `uname` varchar(15) DEFAULT NULL,
+	  `password` varchar(64) NOT NULL,
+	  PRIMARY KEY (`uid`)
+	);
+	
+	CREATE TABLE `chat_records` (
+	  `rid` int(11) NOT NULL AUTO_INCREMENT,
+	  `uid` int(11) NOT NULL,
+	  `speaker` varchar(15) DEFAULT NULL,
+	  `chat_text` varchar(200) DEFAULT NULL,
+	  PRIMARY KEY (`rid`)
+	) ;

@@ -1,0 +1,30 @@
+.REcontent{
+	position: relative;
+	height:475px;
+	border: 1px solid black;
+}
+
+.regster{
+	position: relative;
+	top: 100px;
+	left: 100px;
+
+}
+
+.content_reg{
+	position: relative;
+	top: 70px;
+	left: 120px;
+}
+
+.reg_left{
+	float: left;
+	padding: 100px;
+	border-right: 1px solid black;
+	
+}
+
+.reg_right{
+	float: right;
+	padding: 100px;
+}

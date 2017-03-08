@@ -1,0 +1,54 @@
+作业要求：
+	主机管理系统：
+		1、对主机分组管理（对数据库增删改）
+		2、对主机组批量下发命令
+		3、对主机组批量上传下载文件
+		
+实现的功能：
+	主机组列表：
+		-- 选择主机组
+			- 批量执行远程命令
+			- 批量推送文件
+	管理操作：
+		-- 修改主机组
+			- 增加主机组
+			- 删除主机组
+			- 修改组名
+		-- 添加/删除主机
+			- 增加主机
+			- 删除主机
+		-- 退出系统
+
+运行：
+	__init__.py ：入口文件
+	
+用到的表：
+	admin : 用户表
+	groups_host : 主机组表
+	hosts ：主机表
+	
+表结构：
+	CREATE TABLE `admin` (
+	  `uid` int(11) NOT NULL AUTO_INCREMENT,
+	  `uname` varchar(15) DEFAULT NULL,
+	  `password` varchar(64) NOT NULL,
+	  PRIMARY KEY (`uid`)
+	);
+	
+	CREATE TABLE `groups_host` (
+	  `gid` int(11) NOT NULL AUTO_INCREMENT,
+	  `gname` varchar(30) DEFAULT NULL,
+	  `uid` int(11) DEFAULT NULL,
+	  PRIMARY KEY (`gid`)
+	);
+	
+	CREATE TABLE `hosts` (
+	  `hid` int(11) NOT NULL AUTO_INCREMENT,
+	  `ip` varchar(15) DEFAULT NULL,
+	  `port` int(11) DEFAULT NULL,
+	  `user` varchar(25) DEFAULT NULL,
+	  `password` varchar(32) DEFAULT NULL,
+	  `gid` int(11) DEFAULT NULL,
+	  PRIMARY KEY (`hid`)
+	);
+	

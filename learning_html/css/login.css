@@ -1,0 +1,49 @@
+.w{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer{
+	text-align: center;
+}
+
+.copyright{
+	margin: 10px 0;
+}
+
+.login-wrap{
+	position: relative;
+	height:475px;
+	border: 1px solid black;
+
+}
+
+.content{
+	
+}
+
+.cover{
+	position: absolute;
+	left:10%;
+	top:15%;
+	float: left;
+}
+
+.login-label{
+	
+}
+
+.login-main{
+	float: right;
+
+}
+
+.login-main{
+	padding: 200px 50px;
+}
+.login-button{
+	position: absolute;
+	right: 0px;
+	bottom: 0px
+}

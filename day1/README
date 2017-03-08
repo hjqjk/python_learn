@@ -1,0 +1,4 @@
+src/__init__.py 为主程序文件
+src/login.py 为登录模块，提供功能：账号验证和查询账号是否被锁
+file/account.txt 是账号文件，上边记录了所有的账号和密码，一行一个账号和密码
+file/account_lock.txt 是账号锁文件，被锁定的账号会被记录在该文件中
