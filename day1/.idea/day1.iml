@@ -13,6 +13,7 @@
     <orderEntry type="module" module-name="learning_html" />
     <orderEntry type="module" module-name="Learning_mvc" />
     <orderEntry type="module" module-name="python_challenge" />
+    <orderEntry type="module" module-name="OPS_work" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
