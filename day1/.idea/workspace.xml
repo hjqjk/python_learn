@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce15e9b-7f90-4fb8-983b-b13da2503565" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OPS_work/sendmail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OPS_work/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OPS_work/tt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../python_challenge/web_crawler.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/login.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L0.py" afterPath="$PROJECT_DIR$/../python_challenge/L00.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L1.py" afterPath="$PROJECT_DIR$/../python_challenge/L01.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L2.py" afterPath="$PROJECT_DIR$/../python_challenge/L02.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L3.py" afterPath="$PROJECT_DIR$/../python_challenge/L03.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L4.py" afterPath="$PROJECT_DIR$/../python_challenge/L04.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L5.py" afterPath="$PROJECT_DIR$/../python_challenge/L05.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L6.py" afterPath="$PROJECT_DIR$/../python_challenge/L06.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L7.py" afterPath="$PROJECT_DIR$/../python_challenge/L07.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L8.py" afterPath="$PROJECT_DIR$/../python_challenge/L08.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../python_challenge/L9.py" afterPath="$PROJECT_DIR$/../python_challenge/L09.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/day1.iml" afterPath="$PROJECT_DIR$/.idea/day1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../python_challenge/L10.py" afterPath="$PROJECT_DIR$/../python_challenge/L10.py" />
     </list>
     <ignored path="day1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -673,7 +653,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="959" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="959" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18498169" sideWeight="0.49589685" order="0" side_tool="false" content_ui="combo" />
