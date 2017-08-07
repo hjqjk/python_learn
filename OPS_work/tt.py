@@ -2,11 +2,9 @@
 # _*_ coding:utf-8 _*_
 
 
-f = open('/tmp/t.txt','a+')
+from tqdm import tqdm
+from time import sleep
 
-s = 'export PROMPT_COMMAND=\'{ msg=$(history 1 | { read x y; echo $y; });logger \"[euid=$(whoami) hostname=$(hostname)]\":$(who am i):[`pwd`]\"$msg\"; }\''
-
-f.write(s)
-
-f.close()
+for i in tqdm(xrange(1000)):
+    sleep(0.01)
 
